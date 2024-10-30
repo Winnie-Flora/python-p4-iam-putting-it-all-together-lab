@@ -93,8 +93,7 @@ Add database constraints for the `Recipe` model:
 Your `Recipe` model should also:
 
 - constrain the `title` to be present.
-- constrain the `instructions` to be present and at least 50 characters long, 
-alternately you may use a custom validation.
+- constrain the `instructions` to be present and at least 50 characters long.
 
 Run the migrations after creating your models. You'll need to run
 `flask db init` before running `flask db revision autogenerate` or
